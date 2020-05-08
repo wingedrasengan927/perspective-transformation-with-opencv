@@ -8,5 +8,5 @@ open-cv
 numpy
 ```
 ## running
-provide input image as the argument. The warped images will be stored in `output` folder
+provide input image as the argument. The warped images will be stored in `output` folder 
 `python main.py --image images/Road_in_Norway.jpg`
