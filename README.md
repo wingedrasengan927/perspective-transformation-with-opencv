@@ -8,5 +8,6 @@ open-cv
 numpy
 ```
 ## running
-```python main.py --image images/Road_in_Norway.jpg```
+`python main.py --image images/Road_in_Norway.jpg`
+
 provide input image as the argument. The warped image will be stored in `output` folder 
