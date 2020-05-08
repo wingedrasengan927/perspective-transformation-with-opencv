@@ -65,7 +65,11 @@ def main():
 
     pts = np.array(points, dtype="float32")
     warped_image = four_point_transform(img_copy, pts)
-    # show the original and warped images
+
+    # save the warped image
+    cv2.imwrite("output/" + args.image.split("/")[-1].split(".")[0] + "_warped.jpg", warped_image)
+
+    # show the warped image
     cv2.imshow("Warped Image", warped_image)
     cv2.waitKey(0)
 
